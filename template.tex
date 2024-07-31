@@ -1,0 +1,68 @@
+%%--------------------------------------------------------
+%% template.tex
+%%
+%%--------------------------------------------------------
+\documentclass[12pt]{article}
+\input{prefix}% prefix.tex contains all the tedious macros
+
+\BibLatexMode{\bibliography{template}}
+
+\begin{document}
+
+\title{Probability}
+
+% \author{%
+%    Sam Polgar%
+%    \JamesThanks{Bla bla.}%
+%    %
+% }
+
+\date{\today}
+
+\maketitle`'
+
+\section{week 1}
+\input{weeks/01-week1}
+
+\section{week 2}
+\input{weeks/02-week2.tex}
+
+
+
+
+
+
+
+\newpage
+\begin{verbatim}
+    \begin{math}    
+        \sqrt{x+y}
+    \end{math}
+\end{verbatim}
+
+If you want the math to appear in its own line, the standard way is to use:
+
+\begin{verbatim}
+    \[
+        \sqrt{x+y}
+    \]
+\end{verbatim}
+
+
+\section*{Acknowledgments}
+
+%%% DELETE START
+Thank everyone.
+%%% DELETE END
+
+%-------------------------------------------------------------------------
+
+\BibTexMode{%
+   \bibliographystyle{alpha}
+   \bibliography{template}
+}%
+\BibLatexMode{\printbibliography}
+
+\end{document}
+
+%%% End of file

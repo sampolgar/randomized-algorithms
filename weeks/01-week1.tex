@@ -1,0 +1,94 @@
+\newcommand{\Expectation}{\mathbb{E}}
+% \newcommand{\todo}[1]{\textcolor{red}{\textbf{#1}}}
+
+% \newcommand{\Z}{\mathbb{Z}}
+
+Experiment
+Shuffle a deck of cards, go through in order. How many times do 2 consecutive cards have the same suit?
+
+\subsection{Linearity of expectation}
+...The sum of each little thing
+\[\Expectation [ X + Y ] = \Expectation[X] + \Expectation[Y]\]
+No assumption of independence or anything. Surprisingly useful. 
+
+Prove
+Expectation of selecting a card of type 1
+1/13
+
+sum of all expecations 
+Xi depends on 2 cards. What's Pr
+
+Probability of 
+52 C 13
+E[Xi] = Pr[Xi = 1] 
+
+
+Note: difference between Expectation and Probability.
+Probability = the likelihood of the event e.g. selecting 2 consecutive suit cards from a deck of 52
+Expectation = the average outcome. Multiply each outcome by it's probability. 
+
+\todo{need to do this}
+
+\todo{discuss difference between}
+Monte Carlo, Las Vegas
+Running time
+Output quality
+
+
+
+Question
+I have an array with n = 100
+index of an even number
+what is time complexity of getting even numbers
+Theta n
+
+- why isn't this constant? because you can create an algorithm that only selects 
+
+"on expectation", the las Vegas
+
+exepcted time 
+For all expectation [Ta] = sum from infiintiy i = 1, i Pr [takes i attempts to find an even number]
+\[
+    \Expectation[T_a] = \sum_{i=1}^{\infty} i \cdot \Pr[\text{takes $i$ attempts to find an even number}]
+\]
+\[
+    = \sum_{i=1}^{\infty} \frac{i}{2^i} = O(1)    
+\]
+
+
+Why Randomization?
+
+
+Faster, Simpler Algo'S
+- miller rabin, it's a monte carlo algo. 
+Runs in $O tilde n^2$
+
+
+
+Algos
+Quicksort
+Expected running time 
+Is it Las Vegas or Monte Carlo?
+It's always going to return the sorted array, so it's Las Vegas.
+Proof:
+T(n) = Expectations[runtime on array size n]
+T(n) = E[T(|A1|)] + E[T(|A2|)] + O(n)
+We know |A1| + |A2| = n-1 |Why n-1? 
+
+
+
+
+
+
+
+
+
+
+
+\section{Tutorial 1}
+Problem 1
+Consider a deck of 4$n$ cards with 'S', 'H', 'D', 'C', after shuffled randomly, what's the expected number of consecutive pairs of the same suit.
+
+
+
+\section{Quiz 0}
