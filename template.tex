@@ -1,8 +1,4 @@
-%%--------------------------------------------------------
-%% template.tex
-%%
-%%--------------------------------------------------------
-\documentclass[12pt]{article}
+\documentclass[10pt]{article}
 \input{prefix}% prefix.tex contains all the tedious macros
 
 \BibLatexMode{\bibliography{template}}
@@ -11,21 +7,20 @@
 
 \title{Probability}
 
-% \author{%
-%    Sam Polgar%
-%    \JamesThanks{Bla bla.}%
-%    %
-% }
+\author{%
+   Sam Polgar%
+   %
+}
 
 \date{\today}
 
-\maketitle`'
+\maketitle
 
 \section{week 1}
 \input{weeks/01-week1}
 
-\section{week 2}
-\input{weeks/02-week2.tex}
+% \section{week 2}
+% \input{weeks/02-week2.tex}
 
 
 
@@ -33,12 +28,12 @@
 
 
 
-\newpage
-\begin{verbatim}
-    \begin{math}    
-        \sqrt{x+y}
-    \end{math}
-\end{verbatim}
+% \newpage
+% \begin{verbatim}
+%     \begin{math}    
+%         \sqrt{x+y}
+%     \end{math}
+% \end{verbatim}
 
 If you want the math to appear in its own line, the standard way is to use:
 
@@ -49,19 +44,13 @@ If you want the math to appear in its own line, the standard way is to use:
 \end{verbatim}
 
 
-\section*{Acknowledgments}
 
-%%% DELETE START
-Thank everyone.
-%%% DELETE END
 
-%-------------------------------------------------------------------------
-
-\BibTexMode{%
-   \bibliographystyle{alpha}
-   \bibliography{template}
-}%
-\BibLatexMode{\printbibliography}
+% \BibTexMode{%
+%    \bibliographystyle{alpha}
+%    \bibliography{template}
+% }%
+% \BibLatexMode{\printbibliography}
 
 \end{document}
 
