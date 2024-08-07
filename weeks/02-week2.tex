@@ -1,0 +1,39 @@
+Summary
+Concentration Inequalities, Markov first moment method, Chebyshev second moment method, Chernoff/Hoefding
+Union bound: with linearity of expectation
+Probabilty amplification: majority vote, median trick
+Sampling
+
+
+
+Markov Inequality Proof
+Application from Las Vegas to Monte Carlo 
+Chebyshev + reduce to Markov + Application
+Chernoff/Hoeffding bounds
+Concentration tools
+
+
+Random
+[0,1], (0,1] notation = inclusive/uninclusive
+
+Assignment
+Problem Handchecking Lemma 52 minutes into the lecture
+
+Concentration Inequalities
+How likely a random variable $X$ is to deviate from its expected value (mean).
+concentration = how tight are the values around the mean?
+Inequalities mean they provide upper bounds on probabilities, not exact values.
+
+What they do: provide useful bounds on the probability of events occurring.
+Markov: the probability of random variable X is no more than $\dots$
+Chebyshev: the probability of deviating from its mean by more than some amount is at most $\dots$
+
+When is it useful?
+Useful information about a random variable
+used when we know the mean and variance but not the PMF/PDF e.g. you take some sample statistics from the distribution
+Knowing mean = knowing $\Exp[X]$ because they imply each other
+Knowing variance = knowing the spread of values around the mean, that is, 
+Significance of knowing PMF/PDF: this is a function that describes the distribution e.g. Normal (Gaussian), Exponential, Poisson
+
+Used in the analysis of randomized algorithms
+`'
