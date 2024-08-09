@@ -1,3 +1,5 @@
+% Good exercises: https://www.probabilitycourse.com/chapter6/6_2_2_markov_chebyshev_inequalities.php
+
 Summary
 Concentration Inequalities, Markov first moment method, Chebyshev second moment method, Chernoff/Hoefding
 Union bound: with linearity of expectation
@@ -36,4 +38,28 @@ Knowing variance = knowing the spread of values around the mean, that is,
 Significance of knowing PMF/PDF: this is a function that describes the distribution e.g. Normal (Gaussian), Exponential, Poisson
 
 Used in the analysis of randomized algorithms
-`'
+
+$X \leq t$ random variable $X$ is at most $t$ because if $X$ gets to equal $t$ and go over, then $X \geq t$
+
+Markov
+$t$ is a range/error limit
+
+Complement rule again
+What's the probability that events $E_1$ or $E_2$ occur with $\Pr = p$.
+$\Pr[E_1] = p,\Pr[E_2] = p$
+=
+$1 - \Pr[no event occurs]$
+$\Pr[E_1 and E_2] doesn't occur = 1 - (1-p)^2$
+
+
+Explain Markov with example
+Markov's inequality provides an upper bound on the probability that a non-negative random variable exceeds a certain value
+
+It gives a worst-case estimate for the likelihood of extreme events.
+It works for any non-negative random variable, regardless of its specific distribution.
+The inequality states that the probability of a random variable X being greater than or equal to some positive value a is less than or equal to the expected value of X divided by a.
+
+Mathematically, it's expressed as  $P(X \geq a) \leq E[X] / a$ where $X $is a nonnegative random variable, a is any positive number, and $E[X]$ is the expected value of X.
+This inequality is particularly useful when you don't know much about a distribution but want to make some probabilistic guarantees. It's a fundamental tool in probability theory and has applications in various fields, including algorithm analysis and statistical bounds.
+
+"error limit"

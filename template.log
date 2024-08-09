@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  7 AUG 2024 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.7.23)  9 AUG 2024 15:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -983,76 +983,61 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 18.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./weeks/01-week1.tex
-LaTeX Font Info:    Trying to load font information for T1+lmss on input line 5.
+) (./weeks/00-preliminaries.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 4.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 5.
+Package hyperref Info: bookmark level for unknown definition defaults to 0 on input line 4.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 7.
+(Font)              <10> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 7.
+(Font)              <7> on input line 9.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 7.
-Package hyperref Info: bookmark level for unknown example defaults to 0 on input line 13.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 77.
- [1
-
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
-
-LaTeX Warning: Marginpar on page 2 moved.
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 141.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
+(Font)              <5> on input line 9.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 14.
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}]
-Overfull \hbox (21.68903pt too wide) in paragraph at lines 210--213
-[]\T1/lmr/m/n/10 Problem 3 Sim-i-lar Vari-ance part ex-plained here https://claude.ai/chat/9210ca3a-e032-4137-80b1-455acfe9835a 
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+)
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
-
- []
-
-[4]) (./weeks/02-week2.tex)
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 40.
+Package hyperref Info: bookmark level for unknown example defaults to 0 on input line 40.
+)
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 44.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+) [1
+
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}]
 \tf@thm=\write6
 \openout6 = `template.thm'.
 
- [5] (./template.aux)
+ [2] (./template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `template.out' has not changed.
-(rerunfilecheck)             Checksum: 7D12DAB362B6E2771134F379B7421941;335.
+(rerunfilecheck)             Checksum: B382DE545AD31596853DCBD72652349B;108.
 Package logreq Info: Writing requests to 'template.run.xml'.
 \openout1 = `template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30822 strings out of 474116
- 581161 string characters out of 5743682
- 1946187 words of memory out of 5000000
- 52647 multiletter control sequences out of 15000+600000
- 613544 words of font info for 80 fonts, out of 8000000 for 9000
+ 30655 strings out of 474116
+ 577874 string characters out of 5743682
+ 1943187 words of memory out of 5000000
+ 52506 multiletter control sequences out of 15000+600000
+ 610546 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,13n,124p,919b,968s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on template.pdf (5 pages, 281033 bytes).
+ 122i,7n,124p,919b,852s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on template.pdf (2 pages, 188113 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 134 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

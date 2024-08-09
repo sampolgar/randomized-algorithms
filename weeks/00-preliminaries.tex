@@ -1,22 +1,66 @@
-Discrete Random Variable
+\newcommand{\pmf}{p_X}
 
-The capital X is commonly used to denote a random variable in probability theory. It can represent either a discrete or continuous random variable, depending on the context.
-Let me explain how a discrete random variable works:
-A discrete random variable X is a variable that can only take on a countable number of distinct values. These values are often (but not always) integers. Each possible value of X has an associated probability of occurring.
-Key characteristics of discrete random variables:
+\begin{definition}
+    Discrete Random Variable: 
+\end{definition}
 
-Countable outcomes: The variable can only take on specific, separated values.
-Probability mass function (PMF): This function, often denoted as P(X = x), gives the probability that X takes on a specific value x.
-Cumulative distribution function (CDF): This function, denoted as F(x), gives the probability that X is less than or equal to x.
-Discrete jumps: The CDF of a discrete random variable has "jumps" at the possible values of X.
-Sum of probabilities: The sum of probabilities for all possible outcomes must equal 1.
+\begin{definition}
+    Probability Mass Function of
+    \[
+    X \; \text{as} \;\;p_X:\Omega_X \to [0,1] \qquad  p_X(k) = P(X = k)
+    \]
+\end{definition}
+\begin{itemize}
+    \item pmf of a d.r.v. $X$ takes values from the same space $\Omega_X$ and a probability to each between 0 and 1 inclusive
+    \[
+    p_X:\Omega_X \to [0,1]
+    \]
+    \item $p_X$ is the PMF for random variable $X$, we use little $p$ not big $P$
+    \item $p_X \equiv p(x)$ 
+    \item $\Omega_X$ is the sample space or support of $X$
+    \item $[0,1]$ is the interval of real numbers from 0 to 1 inclusive
+    \item $\to$ indicates the function maps elements from the domain $\Omega_X$ to the range $[0,1]$
+    \item What can we tell from this definition? 1. the pmf is non-negative and at-most 1. $0 \leq p_X \leq 1$. This \\
+    \[
+        p_X(k) = P(X = k)
+    \]
+    \item For each value $k$ in $\Omega_X$, $p_X(k)$ gives $\Pr$ that $X$ takes on $k$
+\end{itemize}
+\subsubsection*{Properties}
+\begin{enumerate}
+    \item $0 \leq p_X \leq 1$: $p_X$ is always non-negative and at most 1. This is basic intuitive understanding!
+    \item $\sum p(x) = 1$ the sum of all probabilities of all outcomes = 1, that is the sum taken over all $x$ in $\Omega_X$ \\
+    This formalizes the idea that at least 1 outcome must occur, and all outcomes are accounted for. Importantly, it enables the complement probability! Because we sum to 1, then the complement probability e.g. $\Pr[\text{not } A]$ = $1 - \Pr[A]$.
+    \item For discrete random variables, $p(x) = 0$ for all $x$ not in the sample space $\Omega_X$ \\
+    This formalizes the idea that impossible outcomes have zero probability, helps define the support/range of the distribution, allows us to extend the domain of the pmf. \\
+    E.g. for a dice roll: $\Omega_X = \{1,2,3,4,5,6\}$, if $p(x) = 0$ then $p(0), p(7), p(3.5) = 0$ the probability we roll a 0 is 0.
+\end{enumerate}
 
-Example:
-Let's consider a simple example - rolling a fair six-sided die. Here, X could represent the outcome of the roll:
+\begin{example}
+adf
+\end{example}
 
-X can take values 1, 2, 3, 4, 5, or 6
-The probability of each outcome is 1/6
-P(X = 3) = 1/6 (probability of rolling a 3)
-F(3) = P(X ≤ 3) = 1/2 (probability of rolling 3 or less)
 
-Expectation
+
+% Discrete Random Variable
+
+% The capital X is commonly used to denote a random variable in probability theory. It can represent either a discrete or continuous random variable, depending on the context.
+% Let me explain how a discrete random variable works:
+% A discrete random variable X is a variable that can only take on a countable number of distinct values. These values are often (but not always) integers. Each possible value of X has an associated probability of occurring.
+% Key characteristics of discrete random variables:
+
+% Countable outcomes: The variable can only take on specific, separated values.
+% Probability mass function (PMF): This function, often denoted as P(X = x), gives the probability that X takes on a specific value x.
+% Cumulative distribution function (CDF): This function, denoted as F(x), gives the probability that X is less than or equal to x.
+% Discrete jumps: The CDF of a discrete random variable has "jumps" at the possible values of X.
+% Sum of probabilities: The sum of probabilities for all possible outcomes must equal 1.
+
+% Example:
+% Let's consider a simple example - rolling a fair six-sided die. Here, X could represent the outcome of the roll:
+
+% X can take values 1, 2, 3, 4, 5, or 6
+% The probability of each outcome is 1/6
+% P(X = 3) = 1/6 (probability of rolling a 3)
+% F(3) = P(X ≤ 3) = 1/2 (probability of rolling 3 or less)
+
+% Expectation
